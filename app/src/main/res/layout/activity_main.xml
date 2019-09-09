@@ -90,7 +90,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toEndOf="@+id/tvTrueTrue2"
-        app:layout_constraintTop_toBottomOf="@+id/tvAB" />
+        app:layout_constraintTop_toBottomOf="@+id/tvAB"
+        android:autofillHints="Fill in T or F." />
 
     <TextView
         android:id="@+id/tvTrueFalse2"
@@ -127,7 +128,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toEndOf="@+id/tvTrueFalse2"
-        app:layout_constraintTop_toBottomOf="@+id/ptInput1" />
+        app:layout_constraintTop_toBottomOf="@+id/ptInput1"
+        android:autofillHints="Fill in T or F."/>
 
     <TextView
         android:id="@+id/tvFalseTrue2"
@@ -164,7 +166,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toEndOf="@+id/tvFalseTrue2"
-        app:layout_constraintTop_toBottomOf="@+id/ptInput2" />
+        app:layout_constraintTop_toBottomOf="@+id/ptInput2"
+        android:autofillHints="Fill in T or F."/>
 
     <TextView
         android:id="@+id/tvFalseFalse2"
@@ -201,7 +204,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toEndOf="@+id/tvFalseFalse2"
-        app:layout_constraintTop_toBottomOf="@+id/ptInput3" />
+        app:layout_constraintTop_toBottomOf="@+id/ptInput3"
+        android:autofillHints="Fill in T or F."/>
 
     <Button
         android:id="@+id/btnSubmit"
